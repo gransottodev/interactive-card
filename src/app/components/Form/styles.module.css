@@ -1,0 +1,65 @@
+.containerForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  width: calc(100% - 33%);
+}
+
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.inputCard{
+  width: 320px;
+  padding: 10px;
+
+  border-radius: 10px;
+  border: 2px solid var(--input-color);
+}
+
+.formLabel{
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(68, 66, 66);
+}
+
+.dateContainer {
+  display: flex;
+  width: 320px;
+  justify-content: space-between;
+}
+
+.dateInputGroup{
+  display: flex;
+  flex-direction: column;
+}
+
+.dateInputGroup input{
+  width: 60px;
+  padding: 12px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+.expDate{
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  width: 320px;
+  background-color: var(--btn-color);
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
