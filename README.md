@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Interactive Card
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+```
+  Esse projeto foi realizado para estudo do hook useContext, para comunicação global de estados da aplicação! 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![image](https://github.com/gransottodev/interactive-card/assets/101595139/32215c74-b24c-4ebf-9202-f0727773c765)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Cada elemento dentro dessa página é um componente independete e por isso a comunicação via "props" é muito dificultada, por isso
+o hook useContext nos ajuda a compartilhar informações entre todos os componentes de foma simplificada, assim posso ter o meu formulário
+em um componente isolado dos cards, mas mesmo assim compartilhar os estados, fazendo com que o código fique melhor distribuído sem
+interferir no funcionamento da aplicação.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![image](https://github.com/gransottodev/interactive-card/assets/101595139/dd2172dd-7c10-4ba8-8f14-c4da0117b2cc)
 
-## Learn More
+O ContextAPI é uma das principais formas de resgatar dados do globais em aplicações React.
+É um projeto muito simples, mas me ajudou a compreender o funcionamento desse Hook.
 
-To learn more about Next.js, take a look at the following resources:
+### Exportando Context.
+![image](https://github.com/gransottodev/interactive-card/assets/101595139/9a42ed56-9b33-439a-a6b9-4dfe7d061e66)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+Aqui consegui exportar todas os estados globalmente para a aplicação, restando somente fazer a requisição dentro
+dos componentes que serão utilizados
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Consumindo
 
-## Deploy on Vercel
+![image](https://github.com/gransottodev/interactive-card/assets/101595139/fef88bf3-dfae-4274-b678-dc89ea84cbb4)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Tecnologias utilizadas:
+1. NextJS
+2. ContextAPI
