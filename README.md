@@ -13,8 +13,8 @@ interferir no funcionamento da aplicação.
 
 ![image](https://github.com/gransottodev/interactive-card/assets/101595139/dd2172dd-7c10-4ba8-8f14-c4da0117b2cc)
 
-O ContextAPI é uma das principais formas de resgatar dados do globais em aplicações React.
-É um projeto muito simples, mas me ajudou a compreender o funcionamento desse Hook.
+O ContextAPI é uma das principais formas de resgatar dados do globais em aplicações React. <br/>
+É um projeto muito simples com enfoque exclusivamente no aprendizado do HOOK.
 
 ### Exportando Context.
 ![image](https://github.com/gransottodev/interactive-card/assets/101595139/9a42ed56-9b33-439a-a6b9-4dfe7d061e66)
